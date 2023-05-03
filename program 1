@@ -1,0 +1,30 @@
+
+#program for student result dictionary
+n=int(input())
+d={}
+for i in range(1,n+1):
+    
+    name,result=input().split()
+    d[name]=result
+for i in range(1,n+1):
+    name=input()
+    if name in d:
+        print(name,d[name],'the exam')
+    else:
+        print('no result found')
+        
+output:
+= RESTART: C:/Users/S ANUPAMA/stu dic.py
+4
+ramu pass
+rani fail
+devi pass
+uma fail
+ramu
+ramu pass the exam
+sita
+no result found
+devi
+devi pass the exam
+uma
+uma fail the exam
